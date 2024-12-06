@@ -1,0 +1,16 @@
+.search-autocomplete {
+    position: relative; /* Asegura el contenedor */
+    width: 100%;
+  }
+  
+  .list-group {
+    padding: 0; /* Si prefieres sin padding general */
+    margin: 0;  /* Quita márgenes extra del ul */
+  }
+  
+  .list-group-item {
+    padding: 10px 15px; /* Da espaciado a cada elemento */
+    margin: 0;          /* Evita márgenes no deseados */
+  }
+  
+  

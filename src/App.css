@@ -1,0 +1,92 @@
+#root {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 100vw;
+}
+.bg-header-custom {
+  background: rgb(13, 66, 66);
+  background: linear-gradient(
+    0deg,
+    rgba(13, 66, 66, 1) 4%,
+    rgba(9, 47, 47, 1) 16%,
+    rgba(1, 8, 8, 1) 46%,
+    rgba(0, 0, 0, 1) 73%
+  );
+}
+.bg-footer-custom {
+  background: rgb(13, 66, 66);
+  background: linear-gradient(
+    180deg,
+    rgba(13, 66, 66, 1) 0%,
+    rgba(9, 47, 47, 1) 6%,
+    rgba(1, 8, 8, 1) 33%,
+    rgba(0, 0, 0, 1) 73%
+  );
+}
+.box-icon {
+  transition: transform 0.4s;
+}
+.box-icon:hover {
+  background-color: rgba(230, 173, 29, 0.952);
+  transform: rotatex(20deg);
+}
+.box-category {
+  transition: transform 0.2s;
+}
+.box-category:hover {
+  background-color: rgba(0, 195, 255, 0.758);
+  transform: scale(1.08);
+}
+
+.bg-image {
+  overflow: hidden;
+}
+.bg-image img {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  opacity: 0.9;
+}
+.bg-image:hover img {
+  transform: scale(1.06);
+  opacity: 1;
+}
+.btn-details {
+  background-color: rgb(165, 2, 2);
+  opacity: 0.8;
+  transition: 0.2s;
+}
+.btn-add-to-cart {
+  background-color: rgb(40, 174, 28);
+  opacity: 0.8;
+  transition: 0.2s;
+}
+.btn-details:hover {
+  opacity: 1;
+}
+
+.card-custom .icon {
+  color: lightseagreen;
+}
+.card-custom {
+  transition: all 0.5s;
+  font-weight: 300;
+}
+.card-custom:hover {
+  background-color: lightseagreen;
+  color: #fff;
+}
+
+.card-custom:hover .icon,
+.card-custom:hover .card-text {
+  color: #fff;
+}
+
+.bg-custom {
+  background: rgb(34, 50, 92);
+  background: linear-gradient(
+    14deg,
+    rgba(34, 50, 92, 1) 8%,
+    rgba(76, 101, 126, 1) 100%
+  );
+  color: rgb(236, 236, 236);
+}
